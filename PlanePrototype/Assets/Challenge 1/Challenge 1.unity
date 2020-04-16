@@ -783,7 +783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  rotationSpeed: 30
+  rotationSpeed: 40
   verticalInput: 0
 --- !u!1 &899755176
 GameObject:
@@ -1697,3 +1697,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef60b1867dda6b4d8ae44857cdbb67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plane: {fileID: 2105600487}
+  speed: 50

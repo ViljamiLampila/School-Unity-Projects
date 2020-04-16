@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class SpinPropellerX : MonoBehaviour
 {
-    
+    public GameObject plane;
+    private Vector3 offset = new Vector3(0, 0, 0);
+    public float speed;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = plane.transform.position + offset;
+        transform.Rotate(0, 0, 50 * Time.deltaTime * speed);
     }
 }
